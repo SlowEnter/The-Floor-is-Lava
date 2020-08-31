@@ -18,7 +18,7 @@ displayName="The Floor is Lava" #mandatory
 
 #displayURL="http://example.com/" #optional
 
-#logoFile="examplemod.png" #optional
+logoFile="logo.png" #optional
 
 #credits="Thanks for this example mod goes to Java" #optional
 
@@ -29,10 +29,10 @@ The Floor is Lava
 
 Try and survive while you only get 3 seconds to leave the last block you stepped on.
 
-Good luck fellow Gamer / Programmer
+Good luck fellow Gamer / Programmer :)
 
 '''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+
 [[dependencies.examplemod]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
@@ -44,7 +44,7 @@ Good luck fellow Gamer / Programmer
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
-# Here's another dependency
+
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true

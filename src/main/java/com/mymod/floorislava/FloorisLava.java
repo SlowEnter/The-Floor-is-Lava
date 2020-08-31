@@ -1,4 +1,4 @@
-package com.example.floorislava;
+package com.mymod.floorislava;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -12,6 +12,7 @@ import org.apache.logging.log4j.Logger;
 public class FloorisLava {
 
 	private static final Logger LOGGER = LogManager.getLogger();
+	public static final String MOD_ID = "floorislava";
 
     public FloorisLava() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
